@@ -8,6 +8,8 @@ import NightLife from "../../components/nightlife";
 
 const getCorrectScreen = (activeTab) => {
   switch (activeTab) {
+    case "Delivery":
+      return <Delivery />;
     case "Dining Out":
       return <DiningOut />;
     case "NightLife":
